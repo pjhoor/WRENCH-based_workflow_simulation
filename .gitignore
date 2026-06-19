@@ -1,0 +1,18 @@
+# Directories
+.cache/
+.config/
+.local/
+build/
+CMakeModules/
+data/
+figures/
+include/
+models/
+outputs/
+src/
+workflows/
+
+# Files
+.bash_history
+.python_history
+CMakeLists.txt
