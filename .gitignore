@@ -6,11 +6,11 @@ build/
 CMakeModules/
 data/**
 figures/**
-include/
 models/**
+workflows/**
+include/
 outputs/
 src/
-workflows/
 
 # Files
 .bash_history
