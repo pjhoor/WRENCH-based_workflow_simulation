@@ -4,10 +4,10 @@
 .local/
 build/
 CMakeModules/
-data/
-figures/
+data/**
+figures/**
 include/
-models/
+models/**
 outputs/
 src/
 workflows/
