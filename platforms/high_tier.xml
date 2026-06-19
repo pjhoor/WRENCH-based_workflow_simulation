@@ -1,0 +1,276 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM "https://simgrid.org/simgrid.dtd">
+<platform version="4.1">
+    <zone id="AS0" routing="Full">
+
+        <!-- Source : https://spec.org/power_ssj2008/results/res2022q2/power_ssj2008-20220330-01170.html -->
+        <!-- Model  : Inspur i24M6 -->
+        <!-- Nodes  : 30 x 28 cores | RAM: 109.42GB -->
+        <!-- Power states (from SPEC): idle=0.0W  ~50%=3873779.0W  100%=7730068.0W -->
+        <!-- NOTE: node/core/RAM values overridden from SPEC page defaults -->
+
+        <!-- BATCH HEAD NODE -->
+        <host id="BatchHeadNode" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <!-- COMPUTATIONAL NODES (30 x 28 cores) -->
+        <host id="Node1" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node2" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node3" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node4" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node5" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node6" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node7" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node8" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node9" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node10" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node11" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node12" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node13" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node14" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node15" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node16" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node17" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node18" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node19" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node20" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node21" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node22" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node23" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node24" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node25" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node26" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node27" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node28" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node29" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="Node30" speed="2.40Gf" core="28">
+            <prop id="ram" value="109.42GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <!-- WMS HOST -->
+        <host id="WMSHost" speed="2.40Gf" core="28">
+            <prop id="ram" value="256GB"/>
+            <disk id="storage" read_bw="100MBps" write_bw="100MBps">
+                <prop id="size" value="156TiB"/>
+                <prop id="mount" value="/"/>
+            </disk>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <!-- CLOUD NODES -->
+        <host id="CloudHeadNode" speed="2.40Gf" core="28">
+            <prop id="ram" value="128GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="CloudNode1" speed="2.40Gf" core="28">
+            <prop id="ram" value="128GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="CloudNode2" speed="2.40Gf" core="28">
+            <prop id="ram" value="128GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <host id="CloudNode3" speed="2.40Gf" core="28">
+            <prop id="ram" value="128GB"/>
+            <prop id="wattage_per_state" value="221.00:436.00:689.00"/>
+        </host>
+
+        <!-- Network link -->
+        <link id="backbone" bandwidth="10000MBps" latency="0.5ms"/>
+
+        <!-- Routes -->
+        <route src="WMSHost" dst="BatchHeadNode"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node1"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node2"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node3"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node4"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node5"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node6"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node7"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node8"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node9"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node10"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node11"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node12"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node13"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node14"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node15"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node16"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node17"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node18"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node19"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node20"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node21"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node22"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node23"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node24"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node25"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node26"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node27"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node28"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node29"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="Node30"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="CloudHeadNode"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="CloudNode1"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="CloudNode2"><link_ctn id="backbone"/></route>
+        <route src="WMSHost" dst="CloudNode3"><link_ctn id="backbone"/></route>
+
+        <route src="BatchHeadNode" dst="Node1"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node2"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node3"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node4"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node5"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node6"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node7"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node8"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node9"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node10"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node11"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node12"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node13"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node14"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node15"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node16"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node17"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node18"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node19"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node20"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node21"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node22"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node23"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node24"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node25"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node26"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node27"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node28"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node29"><link_ctn id="backbone"/></route>
+        <route src="BatchHeadNode" dst="Node30"><link_ctn id="backbone"/></route>
+
+        <route src="CloudHeadNode" dst="CloudNode1"><link_ctn id="backbone"/></route>
+        <route src="CloudHeadNode" dst="CloudNode2"><link_ctn id="backbone"/></route>
+        <route src="CloudHeadNode" dst="CloudNode3"><link_ctn id="backbone"/></route>
+
+    </zone>
+</platform>
