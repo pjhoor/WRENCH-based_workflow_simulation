@@ -163,10 +163,15 @@ Trains regression models on the merged dataset. Run once per cluster tier.
 
 ```bash
 # Train all models
-python modelTraining.py data/merged_data/merged_data_<tier>.csv
+python scripts/modelTraining.py data/merged_data/merged_data_<tier>.csv
 
 # Train specific models only
-python modelTraining.py data/merged_data/merged_data_<tier>.csv --models rf xgb catboost lgbm
+python scripts/modelTraining.py data/merged_data/merged_data_<tier>.csv --models rf xgb catboost lgbm
+```
+Or train the models on all hardware tiers at once:
+```bash
+# Train all models
+./scripts/train_all.ps1
 ```
 
 Trained models are saved to `models/<tier>/`. Evaluation figures are saved to `figures/<tier>/`.
