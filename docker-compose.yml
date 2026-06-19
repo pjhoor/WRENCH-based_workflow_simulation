@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  wrench:
+    image: wrenchproject/wrench:2.3 # 2.3 - 1.5
+    volumes:
+      - .:/home/wrench
+    command: /bin/bash
+    tty: true
+    stdin_open: true
