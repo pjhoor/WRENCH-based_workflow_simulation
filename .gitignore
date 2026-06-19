@@ -5,9 +5,9 @@
 build/
 CMakeModules/
 data/**
-figures/**
 models/**
 workflows/**
+figures/
 include/
 outputs/
 src/
